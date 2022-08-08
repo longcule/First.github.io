@@ -121,7 +121,7 @@ html, body {
 
 #slider {
     position: relative;
-    background: url('/assets/img/bgr.JPG') top center / cover no-repeat;
+    background: url('../img/bgr.JPG') top center / cover no-repeat;
     margin-top: 48px;
     padding-top: 50%;
     
