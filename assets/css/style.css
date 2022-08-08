@@ -1,0 +1,362 @@
+/* Reset CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    
+}
+
+
+html, body {
+    scroll-behavior: smooth;
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}   
+.border {
+    border: 1px solid #ccc !important;
+}
+
+.padding {
+    padding: 8px !important;
+
+}
+.text-white {
+    color: #fff ;
+}
+#header {
+    width: 100%;
+    height: 48px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+#nav .subnav {
+    
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#nav {
+    display: inline-block;
+}
+#nav .subnav a {
+    color: #000;
+    text-transform: none;
+    padding: 8px 44px 8px 16px;
+    
+}
+#nav .nav-arrown-down {
+    font-size: 15px;
+}
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a {
+    color: #fff;
+}
+#nav li a {
+    line-height: 1.5;
+    padding: 12px 24px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    color: #000;
+    background-color: #ccc;
+}
+#nav .subnav li {
+    display: block;
+}
+#header .menu-mobile{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+#header .search-btn,
+#header .menu-mobile {
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-btn:hover {
+    background-color:#f44336;
+    cursor: pointer;
+    
+}
+#header .menu-mobile:hover{
+    background-color:#ccc;
+    cursor: pointer;
+    
+}
+#header .search-icon,
+#header .menu-icon {
+        color: #fff;
+        font-size: 16px;
+        line-height: 48px;
+        
+}
+
+
+#slider {
+    position: relative;
+    background: url('/assets/img/bgr.jpg') top center / cover no-repeat;
+    margin-top: 48px;
+    padding-top: 50%;
+    
+}
+#slider .text-content {
+    position: absolute;
+    bottom: 48px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#slider .text-heading {
+    font-size: 22px;
+    font-weight: 100;
+    
+}
+#slider .text-description {
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+#content .content-section {
+    padding:64px 16px;
+    max-width: 100%;
+    display: block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: 100;
+    opacity: 0.8;
+    letter-spacing: 3px;
+}
+#content .section-sub-heading {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    font-style: oblique;
+    font-weight: 100;
+    opacity: 0.6;
+    margin: 15px 0px;
+}
+#content .about-text {
+    margin: 15px 0px;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: justify;
+    letter-spacing: 0.1px ;
+    word-spacing: -3px;
+}
+
+#content .member-list {
+    margin-top: 48px;
+    overflow: hidden;
+}
+#content .member-item {
+    float: left;
+    width: calc(100% /3);
+    text-align: center;
+}
+#content .member-name {
+    font-size: 15px;
+}
+#content .member-img {
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
+
+#content .tour-section {
+    background-color: #000;
+}
+
+#content .tickets-list {
+    background-color: #fff;
+}
+#content .tickets-list li {
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    border: 1px;
+    border-bottom: 1px solid #ddd;
+    
+}
+#content .sold-out {
+    padding: 2.25px 8px;
+    background-color: #f44336;
+    color: #fff;
+    margin-left: 16px;
+}
+#content .quantity {
+    padding: 0px 8px;
+    margin-right: 16px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #000;
+    float: right;
+}
+
+
+#content .city-item {   
+    padding:0px 8px;
+    float: left;
+    width: calc(100% /3);   
+}
+#content .city-img {   
+    display: block;
+    width: 100%;
+}
+#content .city-img:hover {
+    opacity: 0.6;
+}
+#content .city-list {
+    margin-top: 32px;
+    overflow: hidden;
+}
+#content .city-body {
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #fff;
+    color:#000;
+    padding: 0.01em 16px;
+    
+}
+#content .city-name {
+    margin: 15px 0px;
+    font-weight: 700;
+}
+#content .time {
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+#content .text {
+    margin-bottom: 15px;
+}
+#content .tickets {
+    font-size: 15px;
+    line-height: 22.5px;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    background-color: #000;
+    border: none;
+}
+#content .tickets:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+
+#content .contact {
+    font-size: 18px;
+}
+
+#content .contact-icon{
+    font-size: 18px;
+    width: 30px;
+    display: inline-block;
+    font-weight: 900;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-half {
+    width: 50%;
+}
+.col-full {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.contact-content {
+    margin-top: 48px;
+}
+#content .contact-form{
+    font-size:15px;
+}
+#content .form-control{
+    line-height: 1.5;
+    padding: 8px;
+    width: 100%;
+}
+#content .send {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 16px;
+    padding: 8px 16px;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+}
+#content .send:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+#content .map-section img{
+    padding-top: 112px;
+    width: 100%;
+    opacity: 0.9;
+    display: block;
+}
+
+#footer .iconic2{
+    font-size:24px;
+    padding: 64px 16px;
+    text-align: center;
+    opacity: 0.6;
+}
+#footer .the-end {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0px;
+    color: #000;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+#footer p{
+    font-size: 15px;
+    line-height: 1.5;
+}

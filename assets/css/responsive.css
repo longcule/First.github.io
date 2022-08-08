@@ -1,0 +1,45 @@
+/*mobile*/
+@media (max-width:740px) {
+    #header {
+        overflow: hidden;
+    }
+    #nav .subnav {
+        position: initial;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #header .menu-mobile {
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    #content .city-item {   
+        width: 100%; 
+        margin-bottom: 16px;
+    }
+    #content .col-mobile {
+        width: 100%;  
+    }
+  
+    #content .contact-content .margin-mobile{
+        margin-bottom: 15px;
+    }
+    #content .map-section img{
+        padding-top: 112px;
+    }
+}
