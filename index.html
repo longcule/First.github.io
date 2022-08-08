@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>psd to html</title>
+    <title>The Band</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,8 @@ fontawesome-free@6.1.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/Fonts/themify-icons/themify-icons.css">
-    <link rel="icon" href="https://lolstatic-a.akamaihd.net/rso-login-page/3.2.27/assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="https://lolstatic-a.akamaihd.net/rso-login-page/3.2.27/assets/favicon.ico"
+        type="image/x-icon" />
 </head>
 
 <body>
@@ -70,15 +71,15 @@ fontawesome-free@6.1.1/css/fontawesome.min.css">
                 <div class="member-list">
                     <div class=" member-item">
                         <p class="member-name">Name</p>
-                        <img src="/assets/img/bandmember.jpg" alt="" class="member-img">
+                        <img src="../assets/img/bandmember.jpg" alt="" class="member-img">
                     </div>
                     <div class="member-item">
                         <p class="member-name">Name</p>
-                        <img src="/assets/img/bandmember.jpg" alt="" class="member-img">
+                        <img src="../assets/img/bandmember.jpg" alt="" class="member-img">
                     </div>
                     <div class="member-item">
                         <p class="member-name">Name</p>
-                        <img src="/assets/img/bandmember.jpg" alt="" class="member-img">
+                        <img src="../assets/img/bandmember.jpg" alt="" class="member-img">
                     </div>
                 </div>
             </div>
@@ -95,7 +96,7 @@ fontawesome-free@6.1.1/css/fontawesome.min.css">
                     <div class="city-list" style="margin-left:-8px;
                                                     margin-right: -8px;">
                         <div class="city-item">
-                            <img src="/assets/img/newyork.jpg" alt="newyork" class="city-img">
+                            <img src="../assets/img/newyork.jpg" alt="newyork" class="city-img">
                             <div class="city-body">
                                 <p class="city-name">New York</p>
                                 <p class="time">Fri 27 Nov 2016</p>
@@ -105,7 +106,7 @@ fontawesome-free@6.1.1/css/fontawesome.min.css">
                         </div>
 
                         <div class="city-item">
-                            <img src="/assets/img/paris.jpg" alt="paris" class="city-img">
+                            <img src="../assets/img/paris.jpg" alt="paris" class="city-img">
                             <div class="city-body">
                                 <p class="city-name">Paris</p>
                                 <p class="time">Sat 28 Nov 2016</p>
@@ -115,7 +116,7 @@ fontawesome-free@6.1.1/css/fontawesome.min.css">
                         </div>
 
                         <div class="city-item">
-                            <img src="/assets/img/sanfran.jpg" alt="sanfran" class="city-img">
+                            <img src="../assets/img/sanfran.jpg" alt="sanfran" class="city-img">
                             <div class="city-body">
                                 <p class="city-name">San Francisco</p>
                                 <p class="time">Sun 29 Nov 2016</p>
@@ -146,18 +147,18 @@ fontawesome-free@6.1.1/css/fontawesome.min.css">
                         <form action="">
                             <div class="row">
                                 <div class=" col col-half col-mobile ">
-                                    <input type="text" class="border  form-control" placeholder="Name"
-                                        required name="Name">
+                                    <input type="text" class="border  form-control" placeholder="Name" required
+                                        name="Name">
                                 </div>
                                 <div class=" col col-half col-mobile ">
-                                    <input type="text" class="border   form-control" placeholder="Email"
-                                        required name="Email">
+                                    <input type="text" class="border   form-control" placeholder="Email" required
+                                        name="Email">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col col-full">
-                                    <input type="text" class="border   form-control" placeholder="Message"
-                                        required name="Message">
+                                    <input type="text" class="border   form-control" placeholder="Message" required
+                                        name="Message">
                                 </div>
                             </div>
                             <input class="border send" type="submit" value="SEND">
@@ -166,12 +167,12 @@ fontawesome-free@6.1.1/css/fontawesome.min.css">
                 </div>
             </div>
             <div class="map-section">
-                <img src="/assets/img/map.jpg" alt="map">
+                <img src="../assets/img/map.jpg" alt="map">
             </div>
         </div>
     </div>
     <div id="footer">
-        
+
         <div class="iconic2">
             <i class="iconic ti-facebook "></i>
             <i class="iconic ti-instagram"></i>
@@ -186,34 +187,34 @@ fontawesome-free@6.1.1/css/fontawesome.min.css">
         </div>
 
     </div>
-    
-<script>
-    var header = document.getElementById('header');
-    var mobileMenu = document.getElementById('mobile-menu');
-    var headerHeight = header.clientHeight;
-    mobileMenu.onclick = function() {
-        var isClosed = header.clientHeight === headerHeight;
-        if(isClosed) {
-            header.style.height = 'auto';
-        }else {
-            header.style.height = null;
-        }
-    }
 
-    var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
-    for(var i = 0; i < menuItems.length; i++) {
-        var menuItem = menuItems[i];
-        
-        menuItem.onclick = function(event) {
-            var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
-            if(isParentMenu){
-                event.preventDefault();
-            }else {
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        mobileMenu.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            } else {
                 header.style.height = null;
             }
         }
-    }
-</script>
+
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function (event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (isParentMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
 
 </body>
 
