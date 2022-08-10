@@ -3,6 +3,9 @@
     #header {
         overflow: hidden;
     }
+    #slider .text-content {
+        display: none;
+    }
     #nav .subnav {
         position: initial;
     }
